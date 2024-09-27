@@ -24,18 +24,18 @@ def extract_risk_factors(file_path):
     else:
         return "Risk Factors section not found or missing."
 
-# List of file paths
+'''
 file_paths = [
     "/Users/anasoni/FEI/BRIP/data/2023/QTR1/20230103_10-K_edgar_data_1487931_0001477932-23-000012.txt",
     "/Users/anasoni/FEI/BRIP/data/2023/QTR1/20230103_10-K_edgar_data_1828739_0001477932-23-000002.txt",
     "/Users/anasoni/FEI/BRIP/data/2023/QTR1/20230103_10-K-A_edgar_data_1880151_0001104659-22-131423.txt",
     "/Users/anasoni/FEI/BRIP/data/2023/QTR1/20230103_10-Q_edgar_data_1538217_0001493152-22-037214.txt"
-]
-
+]'''
+'''
 # Extract and print Risk Factors for each file
 for file_path in file_paths:
     print(f"Extracting from {file_path}:")
     result = extract_risk_factors(file_path)
     print(result[:500])  # Print the first 500 characters to ensure we’re capturing meaningful content
     print("\n" + "="*50 + "\n")
-
+'''
