@@ -1,0 +1,1 @@
+This is a repository of my work for Claremont McKenna College's  Professor Kelly who is a member of the Financial Economic Institute. This research pretains to how Bond Pricing reacts to the processing of Risk Information. 
